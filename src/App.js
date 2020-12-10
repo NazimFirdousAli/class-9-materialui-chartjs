@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from './navbar.js';
+import Barchart from './barChar.js';
 import { makeStyles } from '@material-ui/core/styles';
 import { Paper, TextField,Button,CircularProgress } from '@material-ui/core';
 
@@ -48,8 +49,8 @@ function App() {
         </form>
         <br />
         <CircularProgress value= {50} />
-        
-      </Paper>
+        <Barchart />
+      </Paper><br/>
     </div>
   );
 }
